@@ -16,10 +16,10 @@ $activePage = basename($_SERVER['PHP_SELF'], ".php");
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item text-center">
-                    <a class="nav-link hvr-grow <?= ($activePage == 'index') ? 'active':''; ?>" href="./">Home</a>
+                    <a class="nav-link hvr-grow <?= ($activePage == 'index') ? 'active':''; ?>" href="./">team</a>
                 </li>
                 <li class="nav-item text-center">
-                    <a class="nav-link hvr-grow <?= ($activePage == 'team') ? 'active':''; ?>" href="team">Team</a>
+                    <a class="nav-link hvr-grow <?= ($activePage == 'team') ? 'active':''; ?>" href="team">links</a>
                 </li>
                 <li class="nav-item text-center">
                     <a class="nav-link hvr-grow <?= ($activePage == 'projects') ? 'active':''; ?><?= ($activePage == 'blogpost') ? 'projects':''; ?>" href="projects">Projects</a>

@@ -11,11 +11,11 @@
     <link href="css/hover-min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/png" href="assets/images/logo.png">
-    <title>Codebytim - Team</title>
+    <title>Codebytim - Links</title>
 </head>
 <body>
     <?php require 'navbar.php'; ?>
-    <h1 class="text-center p-2 animate__animated animate__fadeIn">TEAM</h1>
+    <h1 class="text-center p-2 animate__animated animate__fadeIn">LINKS</h1>
     <div class="container mt-3">
         <div class="row text-white">
             <div class="col-6 col-sm-3 animate__animated animate__fadeIn text-center">

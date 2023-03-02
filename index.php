@@ -13,7 +13,7 @@
     <link href="css/hover-min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/png" href="assets/images/logo.png">
-    <title>Codebytim</title>
+    <title>Codebytim - Team</title>
 </head>
 <body>
     <?php require 'navbar.php'; ?>
