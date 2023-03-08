@@ -16,7 +16,25 @@
     <title>Codebytim - Team</title>
 </head>
 <body>
-    <?php require 'navbar.php'; ?>
+    <?php require 'navbar.php'; 
+
+// stukje tijd--------------------------------
+$welcome_string="Welcome!";
+$numeric_date=date("h");
+
+//De tijd 
+if($numeric_date>=0&&$numeric_date<=11)
+$welcome_string="Goedemorgen!";
+else if($numeric_date>=12&&$numeric_date<=17)
+$welcome_string="Goedemiddag!";
+else if($numeric_date>=18&&$numeric_date<=23)
+$welcome_string="Goede avond!";
+//Laat groet zien
+echo "$welcome_string";
+// --------------------------------------------
+
+
+?>
 
 </body>
 </html>
